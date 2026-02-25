@@ -20,7 +20,7 @@ I was given tasks step by step by my mentor, and I implemented them in React:
 - Shows entered values in the UI (example: name / date of birth)
 - Includes sections like participant details and payment details
 - Styled to match a reference layout
-- Responsive layout for mobile screens (if completed, keep this line)
+- Responsive layout for mobile screens
 
 ## What I learned
 - React component structure
