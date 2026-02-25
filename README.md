@@ -6,7 +6,7 @@ I was given tasks step by step by my mentor, and I implemented them in React:
 - showing form values
 - controlled components
 - styling to match the given design
-- responsiveness for mobile (in progress / added)
+- responsiveness for mobile (in progress)
 
 ## What I used
 - React
