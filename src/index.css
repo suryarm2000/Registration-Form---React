@@ -101,6 +101,12 @@ input{
   gap: 0.5rem;
 }
 
+.error-text{
+  font-size: 0.9rem;
+  color: red;
+  margin: 0;
+}
+
 .input-field p{
   margin: 0;
 }
@@ -110,6 +116,13 @@ input{
   border: 1px solid;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.input-field .error,
+.payment-row .error,
+.confirm-grid .error,
+.other .error{
+  border: 1px solid red;
 }
 
 .name-dob-section{
@@ -231,6 +244,13 @@ input{
 
 .payment-para{
   margin-right: 2rem;
+}
+
+.sign-input-div,
+.date-signed-input-div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
 }
 
 .sign-input-section{
@@ -394,8 +414,15 @@ input{
     gap: 1rem;
   }
 
-  .sign-input-section{
+  .sign-input-div{
     order: 1;
+  }
+
+  .date-signed-input-div{
+    order: 2;
+  }
+
+  .sign-input-section{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -404,7 +431,6 @@ input{
   }
 
   .date-signed-input-section{
-    order: 2;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -427,5 +453,11 @@ input{
   .footer{
     flex-wrap: wrap;
     row-gap: 1rem;
+  }
+}
+
+@media (max-width : 525px){
+  html{
+    font-size: 9px;
   }
 }
